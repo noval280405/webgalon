@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.2",
+    "firebase": "^10.12.4",
+    "nuxt": "^3.12.4",
+    "pinia": "^2.2.0",
+    "vue": "latest",
+    "vuetify-nuxt-module": "^0.16.1"
+  },
+  "devDependencies": {
+    "nuxt-lodash": "^2.5.3"
+  }
+}
